@@ -114,7 +114,7 @@ python mSINGSlw.py -p preCompControls.txt -s samples.txt -o msi_output.txt
 The following output file is made:
 ```
 sample	score
-sample1	54.166666666666664
+sample1	58.333333333333336
 sample2	0.0
 ```
 This file indicates that the MSI sample1 has 54% of its repeat regions mutated, whilst the MSS sample2 has none of its regions mutated.
