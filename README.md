@@ -75,6 +75,7 @@ pathToControlBam2.bam
 pathToControlBam3.bam
 ...
 ```
+* **Prebuilt controls**
 If you want to use the same controls multiple times, you can save the control data with the `BUILD` option. If you have already saved control data with the `BUILD` option, you can reload it with the `PREBUILT` option, and leave out the `CONTROLS` option. The more control samples you provide, the better your calling will be.
 
 * **Test samples**
