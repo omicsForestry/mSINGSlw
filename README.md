@@ -19,7 +19,7 @@ mSINGSlw will provide a score, based on the proportion of mutant repeat regions.
 mSINGSlw requires python3, with the numpy and pysam modules installed. We leave it up to the user to install these as they see fit, either with pip, conda or other means.
 No installation is required, just download the mSINGSlw.py python script manually, or by:
 ```
-wget site_to_be_added
+wget https://github.com/drhenrywood/mSINGSlw/mSINGSlw.py
 ```
 
 You can even copy/paste the code from this site into your own file. If you want to, you can make the script executable.
