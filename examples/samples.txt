@@ -1,0 +1,2 @@
+egMSI.bam	sample1
+egMSS.bam	sample2
