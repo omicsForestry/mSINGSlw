@@ -6,6 +6,11 @@ A lightweight tool to replicate [mSINGS](https://bitbucket.org/uwlabmed/msings/s
 It is written to work as it is with minimal dependencies.
 ### version 0.1.1
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10706551.svg)](https://doi.org/10.5281/zenodo.10706551)
+
+
+
 ## Introduction
 
 mSINGSlw is a tool to call MSI/MSS in tumour sequencing data (specifically from small capture experiments), based on repeat length distributions. The rationale being that repeat sites in MSI samples are frequently mutated, resulting a a wider distribution of lengths. If enough regions are sampled, the proportion of mutant sites is higher in MSI samples than MSS.
