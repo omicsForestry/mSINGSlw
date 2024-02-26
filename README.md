@@ -4,7 +4,7 @@ MSI calling from sequence capture experiments
 
 A lightweight tool to replicate [mSINGS](https://bitbucket.org/uwlabmed/msings/src/master/) without any installation or virtual environment requirements.
 It is written to work as it is with minimal dependencies.
-### version 0.1.0
+### version 0.1.1
 
 ## Introduction
 
