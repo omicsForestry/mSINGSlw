@@ -4,10 +4,11 @@ MSI calling from sequence capture experiments
 
 A lightweight tool to replicate [mSINGS](https://bitbucket.org/uwlabmed/msings/src/master/) without any installation or virtual environment requirements.
 It is written to work as it is with minimal dependencies.
+### version 0.1.0
 
 ## Introduction
 
-mSINGSlw is a tool to call MSI/MSS in tumour sequencing data (specifically from small capture experiments), based on repeat length distributions. The rational being that repeat sites in MSI samples are frequently mutated, resulting a a wider distribution of lengths. If enough reginos are samples, the proportion of mutant sites is higher in MSI samples than MSS.
+mSINGSlw is a tool to call MSI/MSS in tumour sequencing data (specifically from small capture experiments), based on repeat length distributions. The rationale being that repeat sites in MSI samples are frequently mutated, resulting a a wider distribution of lengths. If enough regions are sampled, the proportion of mutant sites is higher in MSI samples than MSS.
 The original paper describing this is available [here](https://pubmed.ncbi.nlm.nih.gov/24987110/). We have written the basic algorithm into this new tool in order to minimise the requirement of the user to change permissions, create virtual environments or require administrator privileges. We make no claims of novelty, just usefulness.
 
 ## Scope
@@ -40,7 +41,7 @@ However, none of this is necessary. The script should run as it is now, but you 
 python mSINGSlw.py [-h] [-c CONTROLS] [-p PREBUILT] [-b BUILD] [-s SAMPLES]
                    [-r REGIONS] [-o OUTPUT] [-d DEPTH]
 
-Lightweight rewrite of MSIngs
+Lightweight implementation of MSIngs
 
 optional arguments:
   -h, --help            show this help message and exit
