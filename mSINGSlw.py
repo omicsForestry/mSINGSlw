@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
+# version 0.1.0
+
 import argparse
 import pysam
 import numpy
 import sys
 import os
 
-parser = argparse.ArgumentParser(description='Lightweight rewrite of MSIngs')
+parser = argparse.ArgumentParser(description='Lightweight implementation of MSIngs')
 parser.add_argument('-c', '--controls', help = 'Input list of control bam files')
 parser.add_argument('-p', '--prebuilt', help = 'Prebuilt control file, created by -b option. Either -c or -p must be specified.')
 parser.add_argument('-b', '--build', help = 'Filename to save control information from files provided by -c option.')
